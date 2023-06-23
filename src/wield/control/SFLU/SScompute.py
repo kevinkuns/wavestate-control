@@ -245,7 +245,7 @@ class SSCompute:
         plantSS = self.ss[
             list(Rmap.keys()),
             list(Cset)
-        ].minreal(scale_io=True, tol=1e-10)
+        ]
         fr = plantSS.fresponse(f=F_Hz)
         resultsAC = dict()
 
